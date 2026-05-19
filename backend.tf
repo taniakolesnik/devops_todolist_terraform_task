@@ -1,8 +1,8 @@
-# terraform {
-#   backend "azurerm" {
-#     resource_group_name  = "mate-azure-task-12"
-#     storage_account_name = "storageacctk19052026"
-#     container_name       = "tfstate"
-#     key                  = "terraform.tfstate"
-#   }
-# }
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "mate-azure-task-12"
+    storage_account_name = "storageacctk19052026"
+    container_name       = "tfstate"
+    key                  = "terraform.tfstate"
+  }
+}
